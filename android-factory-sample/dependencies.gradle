@@ -1,0 +1,42 @@
+ext {
+    classpathDependencies = [
+            classpath_android_gradle: "com.android.tools.build:gradle:4.1.0",
+    ]
+
+    androidx_annotation_version = '1.1.0'
+    androidXDependencies = [
+            annotation: "androidx.annotation:annotation:$androidx_annotation_version"
+    ]
+
+    timber_version = '4.7.0'
+    javapoet_version = '1.11.1'
+    common_lang3_version = '3.0'
+    commonDependencies = [
+            timber: "com.jakewharton.timber:timber:$timber_version",
+            javapoet: "com.squareup:javapoet:$javapoet_version",
+            apache_common_lang3: "org.apache.commons:commons-lang3:$common_lang3_version",
+    ]
+
+    robolectric_version = '3.8'
+    junit_version = '4.12'
+    mockito_version = '3.5.2'
+    mockito_kotlin_version = '2.2.0'
+    json_version = '20180130'
+    truth_version = '1.0'
+    androidx_junit_version = '1.1.2'
+    test_runner_version = '1.1.0'
+    test_rules_version = '1.1.0'
+    testDependencies = [
+            robolectric: "org.robolectric:robolectric:$robolectric_version",
+            junit: "junit:junit:$junit_version",
+            mockito_core: "org.mockito:mockito-core:$mockito_version",
+            mockito_inline: "org.mockito:mockito-inline:$mockito_version",
+            mockito_kotlin: "com.nhaarman.mockitokotlin2:mockito-kotlin:$mockito_kotlin_version",
+            json: "org.json:json:$json_version",
+            truth: "com.google.truth:truth:$truth_version",
+            androidx_junit: "androidx.test.ext:junit:$androidx_junit_version",
+            mockito_android: "org.mockito:mockito-android:$mockito_version",
+            runner: "androidx.test:runner:$test_runner_version",
+            rules: "androidx.test:rules:$test_rules_version",
+    ]
+}
