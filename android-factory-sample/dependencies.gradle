@@ -11,10 +11,12 @@ ext {
     timber_version = '4.7.0'
     javapoet_version = '1.11.1'
     common_lang3_version = '3.0'
+    auto_service_version = '1.0-rc7'
     commonDependencies = [
             timber: "com.jakewharton.timber:timber:$timber_version",
             javapoet: "com.squareup:javapoet:$javapoet_version",
             apache_common_lang3: "org.apache.commons:commons-lang3:$common_lang3_version",
+            auto_service: "com.google.auto.service:auto-service:$auto_service_version"
     ]
 
     robolectric_version = '3.8'

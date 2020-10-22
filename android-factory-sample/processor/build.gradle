@@ -6,6 +6,9 @@ apply from: '../support_java_base.gradle'
 
 dependencies {
     implementation commonDependencies.apache_common_lang3
+    annotationProcessor commonDependencies.auto_service
+    implementation commonDependencies.auto_service
+    implementation commonDependencies.auto_service
     implementation commonDependencies.javapoet
 
     implementation project(':annotations')
